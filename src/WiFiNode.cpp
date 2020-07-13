@@ -121,7 +121,7 @@ void setup()
     disp.fillScreen(TFT_BLACK);
     disp.setTextColor(TFT_WHITE, TFT_BLACK);
     disp.setCursor(10, 10);
-    disp.setTextDatum(TL_DATUM);
+    disp.setTextSize(1);
     disp.print("Test print");
 }
 
